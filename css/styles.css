@@ -11,6 +11,7 @@
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
     color: var(--primary-text-clr);
+    list-style-type: none;
 }
 
 /* Class Selectors */
@@ -158,11 +159,14 @@ body {
 .link {
     text-decoration: none;
     color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
     }
 
 .link:hover,
 .link:focus {
-    color:#2196F3;
+    color: var(--accent-clr);
 }
 
 
@@ -180,12 +184,36 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    
 }
 
 .mail-tel {
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.714;
+    line-height: 1.714; 
+    
+}
+
+.link-current {
+    color: var(--accent-clr);
+}
+
+.nav:hover,
+.nav:focus: {
+    color: var(--accent-clr);
+}
+
+.header-mail {
+    color: var(--accent-clr);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+}
+
+.header-tel {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
 }
