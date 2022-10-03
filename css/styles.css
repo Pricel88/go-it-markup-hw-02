@@ -174,10 +174,6 @@ body {
     list-style-type: none;
 }
 
-.contacts-list {
-    list-style-type: none;
-}
-
 .map-address {
     color: #fff;
     text-decoration: none;
@@ -204,14 +200,8 @@ body {
     color: var(--accent-clr);
 }
 
-.header-mail {
-    color: var(--accent-clr);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.142;
-}
 
-.header-tel {
+.header-cont {
     color: #757575;
     font-weight: 500;
     font-size: 14px;
