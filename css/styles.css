@@ -20,7 +20,8 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.1923;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .logo-accent-sec {
@@ -28,7 +29,8 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.1923;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .page-nav {
@@ -46,9 +48,11 @@ body {
 .main-button {
     color: var(--clr-primary-white);
     background-color: var(--accent-clr);
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
     cursor: pointer;
 }
 
@@ -60,10 +64,10 @@ body {
 
 .main-button-sect {
     color: var(--clr-primary-white);
-    background-color: var(--clr-brand);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.3636;
+    letter-spacing: 0.06em;
 }
 
 /* sections design */
@@ -72,21 +76,22 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1666;
+    letter-spacing: 0.03em;
 }
 
 .peculiarities-list {
     color: var(--black-brand);
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.1428;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .peculiarities-text {
-        font-weight: 400;
         font-size: 14px;
-        line-height: 1.714;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
 }
 
 /* team */
@@ -102,13 +107,14 @@ body {
     color: var(--black-brand);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.1875;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
 }
 
 .team-member-spec {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.1875;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
 }
 
 /* portfolio */
@@ -117,29 +123,34 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .portfolio-text {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
 }
 
 .portfolio-buttons {
     color: #212121;
     background-color: #F5F4FA;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.625;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
     cursor: pointer;
 }
 
 .portfolio-button {
     color: var(--clr-primary-white);
     background-color: var(--accent-clr);
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.625;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
     cursor: pointer;
 }
 
@@ -161,7 +172,8 @@ body {
     color: #212121;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.142;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     }
 
 .link:hover,
@@ -177,17 +189,16 @@ body {
 .map-address {
     color: #fff;
     text-decoration: none;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .mail-tel {
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.714; 
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     
 }
 
@@ -205,5 +216,10 @@ body {
     color: #757575;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.142;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.bcg-sect {
+    background-color: var(--clr-brand);
 }
